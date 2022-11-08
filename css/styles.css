@@ -1,0 +1,164 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat';
+}
+.section-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.price-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testomonial-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.feautre-title{
+	font-size: 1.5rem;
+}
+.big-heading{
+	font-size: 3.3rem;
+	line-height: 1.5;
+}
+.colored-section{
+	color: white;
+	background: #ff4c68;
+}
+#title{
+	text-align: left;
+}
+.navbar{
+	padding: 0;
+	padding-bottom: 100px;
+}
+
+.container-fluid{
+	padding: 3% 15%;
+}
+.download{
+	width: 30px;
+}
+.navbar-brand{
+	color: white;
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	color: white;
+}
+
+.navbar-brand{
+	font-family: ubuntu;
+	text-decoration: bold;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.dowload-button {
+	margin:  5% 3% 5% 0;
+}
+.phone{
+	width: 250px;
+	transform: rotate(35deg);
+	right: 250px;	
+	position: absolute;
+	z-index: 1;
+}
+.dwn{
+	margin-right: 7px;
+}
+.feature{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#features{
+	padding: 50px 0;
+	position: relative;
+	z-index: 2;
+}
+.feature > i {
+	color: #cf8172;
+	margin-bottom: 15px;
+	font-size: 50px;
+}
+.feature > i:hover{
+	transition: 0.5s ease;
+	color: #ff4c88;
+}
+.feature > p {
+	color:  #8f8f8f;
+	font-weight: 500;
+	font-size: 12px;
+}
+.dog-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press{
+	padding-bottom: 50px;
+}
+.sponsor {
+	width: 15%;
+	margin: 20px 20px 15px;
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+.card{
+	margin: auto;
+}
+#pricing{
+	padding: 100px 0;
+}
+.card-body > button{
+	margin-bottom: 10px;
+	width: 90%;
+}
+@media (max-width:  1028px){
+	.phone{
+		position: static;
+		text-align: center;
+		margin: auto;
+		transform: rotate(0deg);
+	}
+	#title{
+		text-align: center;
+	}
+}
+#cta{
+	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+#cta > h3{
+	font-family: 'Montserrat';
+	font-size: 4rem;
+}
+#cta > button{
+	margin: 40px 15px 10px 15px;
+}
+#footer{
+	padding: 100px 10px;
+	background: white;
+}
+#footer > a > i{
+	color: black;
+	padding: 0 5px;
+}
+#footer > p {
+	font-weight: 300;
+	font-size: 0.7rem;
+}
+.white-section{
+	background: white;
+	color: black;
+}
